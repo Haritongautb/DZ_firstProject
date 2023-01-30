@@ -5,7 +5,7 @@ const autoCloseModal = (modalSelector) => {
         item.style.display = "none";
     })
 
-    document.body.style.overflow = "hidden";
+    document.body.style.overflow = "";
 }
 
 export default autoCloseModal;
