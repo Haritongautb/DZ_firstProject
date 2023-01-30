@@ -1,4 +1,5 @@
 import checkNumInputs from "./checkNumInputs";
+import autoCloseModal from "./autoCloseModal";
 
 const forms = (state) => {
     const form = document.querySelectorAll("form"),
